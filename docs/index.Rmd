@@ -1,0 +1,17 @@
+---
+title: "index"
+author: "Lily Luk"
+date: "2023-05-24"
+output: html_document
+---
+
+# 6040 Advanced statistical methods II {.tabset}
+
+## Lecture 1
+
+-   
+
+## Lecture 2
+
+1. Bootstrap method 
+2. `boot` package
