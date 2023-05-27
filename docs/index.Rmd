@@ -1,15 +1,33 @@
 ---
-title: "index"
+title: "6040 Advanced statistical methods II "
 author: "Lily Luk"
-date: "2023-05-24"
-output: html_document
+date: "2023-05"
+output: 
+  html_document: 
+    highlight: pygments
+    theme: flatly
 ---
 
-# 6040 Advanced statistical methods II {.tabset}
+# R notes sorted by lecture :D {.tabset}
+
+## Overview
+
+1. Frequentist inference, Interval estimation and Hypothesis testing [Lecture note](https://www.notion.so/1-Frequentist-Inference-Interval-Estimation-and-Hypothesis-Testing-382961a2a5ad4acaa535d95f56dde18e#88b43ed0321842e596e630d8357bf63c) | 
+   [Practical](https://flatter11.github.io/6040/1.-Frequentist-Inference,-Interval-Estimation-and-Hypothesis-Testing)
+    - Max likelihood
+    - CI and p-value
+    - `function` for user-defined functions, `optim` for max likelihood, obtain p-value of comparing groups
+    
 
 ## Lecture 1
 
--   
+1. Frequentist inference (proportional definition, multiple observations, log-likelihood function)
+2. Interval estimation (derive CI)
+3. Hypothesis testing (p-value)
+-  Practical 1: 
+   -  Q1 `function` for user-defined functions, `optim` for max likelihood
+   -  Q2 obtain p-value of comparing groups
+   -  Q3 max likelihood in complicated example
 
 ## Lecture 2
 
