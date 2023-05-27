@@ -23,6 +23,11 @@ output:
    - Types of bootstrap, Bootstrap CI
    - `boot` package for bootstrap
 
+3. Regression discontinuity design [Lecture note | Practical](https://flatter11.github.io/6040/3.-Regression-discontinuity-design)
+   - Global approach (linear + polynomial)
+   - Local approach (kernel smoothing) `np` `rdrobust`
+   - Assumptions of RDD
+
 ## 1
 
 1. Frequentist inference (proportional definition, multiple observations, log-likelihood function)
@@ -38,3 +43,10 @@ output:
 1. Type of bootstrap (non-parametric, semi-parametric, parametric)
 2. Bootstrap CI
 3. `boot` package
+
+## 3
+
+1. RDD global approach (linear + polynomial)
+2. Local approach (kernel smoothing) `np` `rdrobust`
+3. Checking assumptions of RDD
+
