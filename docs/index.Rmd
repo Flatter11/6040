@@ -17,9 +17,13 @@ output:
     - Max likelihood
     - CI and p-value
     - `function` for user-defined functions, `optim` for max likelihood, obtain p-value of comparing groups
-    
 
-## Lecture 1
+
+2. Bootstrap method [Lecture note | Practical](https://flatter11.github.io/6040/2.-Bootstrap-method)
+   - Types of bootstrap, Bootstrap CI
+   - `boot` package for bootstrap
+
+## 1
 
 1. Frequentist inference (proportional definition, multiple observations, log-likelihood function)
 2. Interval estimation (derive CI)
@@ -29,7 +33,8 @@ output:
    -  Q2 obtain p-value of comparing groups
    -  Q3 max likelihood in complicated example
 
-## Lecture 2
+## 2
 
-1. Bootstrap method 
-2. `boot` package
+1. Type of bootstrap (non-parametric, semi-parametric, parametric)
+2. Bootstrap CI
+3. `boot` package
