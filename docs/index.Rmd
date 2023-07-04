@@ -28,6 +28,22 @@ output:
    - Local approach (kernel smoothing) `np` `rdrobust`
    - Assumptions of RDD
 
+4. Survival analysis and multiple imputation [Lecture note | Practical](https://flatter11.github.io/6040/4.-Survival-function-and-multiple-imputation)
+   - Survival analysis
+     - KM estimator `surv` `survfit` & log rank test  `survdiff`
+     - PH model/Cox regression -- fitting model `coxph` & check assumptions `cox.zph`
+     - AFT model -- fitting model `survreg`
+     - Censoring & truncation analysis
+   - Multiple imputation
+     - Construct datasets `transcan` `aregImpute`
+     - Comtine estimates `fit.mult.impute`
+
+Tutorial
+
+1. Tutorial 1[Tutorial 1](https://flatter11.github.io/6040/Tutorial-1)
+   - 
+
+
 ## 1
 
 1. Frequentist inference (proportional definition, multiple observations, log-likelihood function)
@@ -49,4 +65,25 @@ output:
 1. RDD global approach (linear + polynomial)
 2. Local approach (kernel smoothing) `np` `rdrobust`
 3. Checking assumptions of RDD
+
+## T1
+
+a. Likelihood ratio method to obtain **95%CI** (new)
+b. Bootstrap R package to obtain **95%CI**
+c. Obtain **MLE** for multiple samples (new)
+d. Obtain **MLE** while allowing for group differnece (new)
+e. Hessian and information matrix to obtain **95%CI** (new)
+f. (under d) Hessian and information matrix to obtain **95%CI** while allowing for group difference; wald estimate??????? | `solve()` to compute inverse of matrix
+g. (under d) Likelihood ratio for 2 estimate ???
+
+## 4
+
+1. Survival analysis
+   - KM estimator `surv` `survfit` & log rank test  `survdiff`
+   - PH model/Cox regression -- fitting model `coxph` & check assumptions `cox.zph`
+   - AFT model -- fitting model `survreg`
+   - Censoring & truncation analysis
+2. Multiple imputation
+   - Construct datasets `transcan` `aregImpute`
+   - Comtine estimates `fit.mult.impute`
 
