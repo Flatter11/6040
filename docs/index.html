@@ -372,6 +372,30 @@ note | Practical</a>
 <code>rdrobust</code></li>
 <li>Assumptions of RDD</li>
 </ul></li>
+<li>Survival analysis and multiple imputation <a href="https://flatter11.github.io/6040/4.-Survival-function-and-multiple-imputation">Lecture
+note | Practical</a>
+<ul>
+<li>Survival analysis
+<ul>
+<li>KM estimator <code>surv</code> <code>survfit</code> &amp; log rank
+test <code>survdiff</code></li>
+<li>PH model/Cox regression – fitting model <code>coxph</code> &amp;
+check assumptions <code>cox.zph</code></li>
+<li>AFT model – fitting model <code>survreg</code></li>
+<li>Censoring &amp; truncation analysis</li>
+</ul></li>
+<li>Multiple imputation
+<ul>
+<li>Construct datasets <code>transcan</code>
+<code>aregImpute</code></li>
+<li>Comtine estimates <code>fit.mult.impute</code></li>
+</ul></li>
+</ul></li>
+</ol>
+<p>Tutorial</p>
+<ol style="list-style-type: decimal">
+<li><h2 id="tutorial-1tutorial-1">Tutorial 1<a href="https://flatter11.github.io/6040/Tutorial-1">Tutorial
+1</a></h2></li>
 </ol>
 </div>
 <div id="section" class="section level2">
@@ -407,6 +431,42 @@ observations, log-likelihood function)</li>
 <li>Local approach (kernel smoothing) <code>np</code>
 <code>rdrobust</code></li>
 <li>Checking assumptions of RDD</li>
+</ol>
+</div>
+<div id="t1" class="section level2">
+<h2>T1</h2>
+<ol style="list-style-type: lower-alpha">
+<li>Likelihood ratio method to obtain <strong>95%CI</strong> (new)</li>
+<li>Bootstrap R package to obtain <strong>95%CI</strong></li>
+<li>Obtain <strong>MLE</strong> for multiple samples (new)</li>
+<li>Obtain <strong>MLE</strong> while allowing for group differnece
+(new)</li>
+<li>Hessian and information matrix to obtain <strong>95%CI</strong>
+(new)</li>
+<li>(under d) Hessian and information matrix to obtain
+<strong>95%CI</strong> while allowing for group difference; wald
+estimate??????? | <code>solve()</code> to compute inverse of matrix</li>
+<li>(under d) Likelihood ratio for 2 estimate ???</li>
+</ol>
+</div>
+<div id="section-3" class="section level2">
+<h2>4</h2>
+<ol style="list-style-type: decimal">
+<li>Survival analysis
+<ul>
+<li>KM estimator <code>surv</code> <code>survfit</code> &amp; log rank
+test <code>survdiff</code></li>
+<li>PH model/Cox regression – fitting model <code>coxph</code> &amp;
+check assumptions <code>cox.zph</code></li>
+<li>AFT model – fitting model <code>survreg</code></li>
+<li>Censoring &amp; truncation analysis</li>
+</ul></li>
+<li>Multiple imputation
+<ul>
+<li>Construct datasets <code>transcan</code>
+<code>aregImpute</code></li>
+<li>Comtine estimates <code>fit.mult.impute</code></li>
+</ul></li>
 </ol>
 </div>
 </div>
