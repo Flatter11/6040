@@ -12,7 +12,7 @@ output:
 
 ## Overview
 
-1. Frequentist inference, Interval estimation and Hypothesis testing [Lecture note](https://www.notion.so/1-Frequentist-Inference-Interval-Estimation-and-Hypothesis-Testing-382961a2a5ad4acaa535d95f56dde18e#88b43ed0321842e596e630d8357bf63c) | 
+1. Frequentist inference, Interval estimation and Hypothesis testing [Lecture note](https://www.notion.so/1-Frequentist-Inference-Interval-Estimation-and-Hypothesis-Testing-382961a2a5ad4acaa535d95f56dde18e) | 
    [Practical](https://flatter11.github.io/6040/1.-Frequentist-Inference,-Interval-Estimation-and-Hypothesis-Testing)
     - Max likelihood
     - CI and p-value
