@@ -18,12 +18,11 @@ output:
     - CI and p-value
     - `function` for user-defined functions, `optim` for max likelihood, obtain p-value of comparing groups
 
-
 2. Bootstrap method [Lecture note | Practical](https://flatter11.github.io/6040/2.-Bootstrap-method)
    - Types of bootstrap, Bootstrap CI
    - `boot` package for bootstrap
 
-3. Regression discontinuity design [Lecture note | Practical](https://flatter11.github.io/6040/3.-Regression-discontinuity-design)
+3. Regression discontinuity design [Lecture note](https://flatter11.github.io/6040/3.-Regression-discontinuity-design)
    - Global approach (linear + polynomial)
    - Local approach (kernel smoothing) `np` `rdrobust`
    - Assumptions of RDD
@@ -38,11 +37,27 @@ output:
      - Construct datasets `transcan` `aregImpute`
      - Comtine estimates `fit.mult.impute`
 
+5. Multilevel analysis [Lecture note](https://flatter11.github.io/6040/5.-Multilevel-analysis)
+   - For clustered data
+   - Multilevel models formula
+   - Linear mixed model (LMM)
+     - random intercept model, intercept with 1 predictor model etc
+     - model comparison
+     - model diagnostics
+
+6. Longitudinal analysis [Lecture note | Practical](https://flatter11.github.io/6040/6.-Longitudinal-analysis)
+   - For repeated measure data
+   - GEE model
+     - Correlation structure (independence, exchangeable, ar1, unstructure)
+     - Model comparison, missing data
+   - GLMM model
+   
+   
 Tutorial
 
-1. Tutorial 1[Tutorial 1](https://flatter11.github.io/6040/Tutorial-1)
-   - 
-
+1. Tutorial 1[Tutorial note](https://flatter11.github.io/6040/Tutorial-1)
+   - After lecture 2
+   - Ho chi super difficult...
 
 ## 1
 
@@ -66,16 +81,6 @@ Tutorial
 2. Local approach (kernel smoothing) `np` `rdrobust`
 3. Checking assumptions of RDD
 
-## T1
-
-a. Likelihood ratio method to obtain **95%CI** (new)
-b. Bootstrap R package to obtain **95%CI**
-c. Obtain **MLE** for multiple samples (new)
-d. Obtain **MLE** while allowing for group differnece (new)
-e. Hessian and information matrix to obtain **95%CI** (new)
-f. (under d) Hessian and information matrix to obtain **95%CI** while allowing for group difference; wald estimate??????? | `solve()` to compute inverse of matrix
-g. (under d) Likelihood ratio for 2 estimate ???
-
 ## 4
 
 1. Survival analysis
@@ -86,4 +91,31 @@ g. (under d) Likelihood ratio for 2 estimate ???
 2. Multiple imputation
    - Construct datasets `transcan` `aregImpute`
    - Comtine estimates `fit.mult.impute`
+
+## 5
+
+1. Multilevel models formula
+2. Linear mixed model (LMM)
+   - random intercept model, intercept with 1 predictor model etc
+   - model comparison
+   - model diagnostics
+
+## 6
+
+1. GEE model
+   - Correlation structure (independence, exchangeable, ar1, unstructure)
+   - Model comparison with anova(), QIC
+   - Missing data
+2. GLMM model
+
+## T1
+
+a. Likelihood ratio method to obtain **95%CI** (new)
+b. Bootstrap R package to obtain **95%CI**
+c. Obtain **MLE** for multiple samples (new)
+d. Obtain **MLE** while allowing for group differnece (new)
+e. Hessian and information matrix to obtain **95%CI** (new)
+f. (under d) Hessian and information matrix to obtain **95%CI** while allowing for group difference; wald estimate??????? | `solve()` to compute inverse of matrix
+g. (under d) Likelihood ratio for 2 estimate ???
+
 

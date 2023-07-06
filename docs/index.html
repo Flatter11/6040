@@ -350,7 +350,7 @@ display: none;
 <div id="overview" class="section level2">
 <h2>Overview</h2>
 <ol style="list-style-type: decimal">
-<li>Frequentist inference, Interval estimation and Hypothesis testing <a href="https://www.notion.so/1-Frequentist-Inference-Interval-Estimation-and-Hypothesis-Testing-382961a2a5ad4acaa535d95f56dde18e#88b43ed0321842e596e630d8357bf63c">Lecture
+<li>Frequentist inference, Interval estimation and Hypothesis testing <a href="https://www.notion.so/1-Frequentist-Inference-Interval-Estimation-and-Hypothesis-Testing-382961a2a5ad4acaa535d95f56dde18e">Lecture
 note</a> | <a href="https://flatter11.github.io/6040/1.-Frequentist-Inference,-Interval-Estimation-and-Hypothesis-Testing">Practical</a>
 <ul>
 <li>Max likelihood</li>
@@ -365,7 +365,7 @@ for max likelihood, obtain p-value of comparing groups</li>
 <li><code>boot</code> package for bootstrap</li>
 </ul></li>
 <li>Regression discontinuity design <a href="https://flatter11.github.io/6040/3.-Regression-discontinuity-design">Lecture
-note | Practical</a>
+note</a>
 <ul>
 <li>Global approach (linear + polynomial)</li>
 <li>Local approach (kernel smoothing) <code>np</code>
@@ -391,11 +391,38 @@ check assumptions <code>cox.zph</code></li>
 <li>Comtine estimates <code>fit.mult.impute</code></li>
 </ul></li>
 </ul></li>
+<li>Multilevel analysis <a href="https://flatter11.github.io/6040/5.-Multilevel-analysis">Lecture
+note</a>
+<ul>
+<li>For clustered data</li>
+<li>Multilevel models formula</li>
+<li>Linear mixed model (LMM)
+<ul>
+<li>random intercept model, intercept with 1 predictor model etc</li>
+<li>model comparison</li>
+<li>model diagnostics</li>
+</ul></li>
+</ul></li>
+<li>Longitudinal analysis <a href="https://flatter11.github.io/6040/6.-Longitudinal-analysis">Lecture
+note | Practical</a>
+<ul>
+<li>For repeated measure data</li>
+<li>GEE model
+<ul>
+<li>Correlation structure (independence, exchangeable, ar1,
+unstructure)</li>
+<li>Model comparison, missing data</li>
+</ul></li>
+<li>GLMM model</li>
+</ul></li>
 </ol>
 <p>Tutorial</p>
 <ol style="list-style-type: decimal">
-<li><h2 id="tutorial-1tutorial-1">Tutorial 1<a href="https://flatter11.github.io/6040/Tutorial-1">Tutorial
-1</a></h2></li>
+<li>Tutorial 1<a href="https://flatter11.github.io/6040/Tutorial-1">Tutorial note</a>
+<ul>
+<li>After lecture 2</li>
+<li>Ho chi super difficult…</li>
+</ul></li>
 </ol>
 </div>
 <div id="section" class="section level2">
@@ -433,22 +460,6 @@ observations, log-likelihood function)</li>
 <li>Checking assumptions of RDD</li>
 </ol>
 </div>
-<div id="t1" class="section level2">
-<h2>T1</h2>
-<ol style="list-style-type: lower-alpha">
-<li>Likelihood ratio method to obtain <strong>95%CI</strong> (new)</li>
-<li>Bootstrap R package to obtain <strong>95%CI</strong></li>
-<li>Obtain <strong>MLE</strong> for multiple samples (new)</li>
-<li>Obtain <strong>MLE</strong> while allowing for group differnece
-(new)</li>
-<li>Hessian and information matrix to obtain <strong>95%CI</strong>
-(new)</li>
-<li>(under d) Hessian and information matrix to obtain
-<strong>95%CI</strong> while allowing for group difference; wald
-estimate??????? | <code>solve()</code> to compute inverse of matrix</li>
-<li>(under d) Likelihood ratio for 2 estimate ???</li>
-</ol>
-</div>
 <div id="section-3" class="section level2">
 <h2>4</h2>
 <ol style="list-style-type: decimal">
@@ -467,6 +478,47 @@ check assumptions <code>cox.zph</code></li>
 <code>aregImpute</code></li>
 <li>Comtine estimates <code>fit.mult.impute</code></li>
 </ul></li>
+</ol>
+</div>
+<div id="section-4" class="section level2">
+<h2>5</h2>
+<ol style="list-style-type: decimal">
+<li>Multilevel models formula</li>
+<li>Linear mixed model (LMM)
+<ul>
+<li>random intercept model, intercept with 1 predictor model etc</li>
+<li>model comparison</li>
+<li>model diagnostics</li>
+</ul></li>
+</ol>
+</div>
+<div id="section-5" class="section level2">
+<h2>6</h2>
+<ol style="list-style-type: decimal">
+<li>GEE model
+<ul>
+<li>Correlation structure (independence, exchangeable, ar1,
+unstructure)</li>
+<li>Model comparison with anova(), QIC</li>
+<li>Missing data</li>
+</ul></li>
+<li>GLMM model</li>
+</ol>
+</div>
+<div id="t1" class="section level2">
+<h2>T1</h2>
+<ol style="list-style-type: lower-alpha">
+<li>Likelihood ratio method to obtain <strong>95%CI</strong> (new)</li>
+<li>Bootstrap R package to obtain <strong>95%CI</strong></li>
+<li>Obtain <strong>MLE</strong> for multiple samples (new)</li>
+<li>Obtain <strong>MLE</strong> while allowing for group differnece
+(new)</li>
+<li>Hessian and information matrix to obtain <strong>95%CI</strong>
+(new)</li>
+<li>(under d) Hessian and information matrix to obtain
+<strong>95%CI</strong> while allowing for group difference; wald
+estimate??????? | <code>solve()</code> to compute inverse of matrix</li>
+<li>(under d) Likelihood ratio for 2 estimate ???</li>
 </ol>
 </div>
 </div>
