@@ -46,18 +46,30 @@ output:
      - model diagnostics
 
 6. Longitudinal analysis [Lecture note | Practical](https://flatter11.github.io/6040/6.-Longitudinal-analysis)
-   - For repeated measure data
+   - For repeated measure/longitudinal data
    - GEE model
      - Correlation structure (independence, exchangeable, ar1, unstructure)
      - Model comparison, missing data
    - GLMM model
    
+7. Margianl structural model [Lecture note](https://flatter11.github.io/6040/7.-Marginal-structural-model)
+   - For longitudinal data with time-dependent element
+   - MSM model
+     1. Estimate weight using `ipwpoint` (time-independent analysis) `ipwtm`(time-dependent)
+        `ipwplot` to show distribution of weight
+     2. Obtain causal effect estimate using regression model like `svyglm()`or cox model
+
+
    
 Tutorial
 
 1. Tutorial 1[Tutorial note](https://flatter11.github.io/6040/Tutorial-1)
    - After lecture 2
    - Ho chi super difficult...
+
+2. Tutoial 2[Tutoorial note](https://flatter11.github.io/6040/Tutorial-2)
+   - Multiple imputation (lecture 4)
+   - Extension abt a) study missingness b) checking whether imputed data is sensible
 
 ## 1
 
@@ -108,6 +120,15 @@ Tutorial
    - Missing data
 2. GLMM model
 
+## 7
+
+MSM model
+
+1. Estimate weight using `ipwpoint` (time-independent analysis) `ipwtm`(time-dependent)
+   `ipwplot` to show distribution of weight
+2. Obtain causal effect estimate using regression model like `svyglm()`or cox model
+
+
 ## T1
 
 a. Likelihood ratio method to obtain **95%CI** (new)
@@ -117,5 +138,19 @@ d. Obtain **MLE** while allowing for group differnece (new)
 e. Hessian and information matrix to obtain **95%CI** (new)
 f. (under d) Hessian and information matrix to obtain **95%CI** while allowing for group difference; wald estimate??????? | `solve()` to compute inverse of matrix
 g. (under d) Likelihood ratio for 2 estimate ???
+
+## T2
+
+- Lecture 4 (multiple imputation)
+  - Perform multiple imputation in 3 missing datasets (MCAR, not MCAR, high missingness)
+  - For each dataset, we
+    1. Study missingness by visualization etc `aggr()` `marginplot()` 
+       `complete.cases()` (new)
+    2. Performed complete case analysis 
+    3. Performed multiple imputation which includes constructing dataset, checking 
+       whether imputed data is sensible (new) and combine estimate
+  - The finding of this tutorial is that estimate is biased if multiple 
+    imputation is not used and all variables should be used for multiple 
+    imputation
 
 
