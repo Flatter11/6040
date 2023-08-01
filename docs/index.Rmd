@@ -59,8 +59,14 @@ output:
         `ipwplot` to show distribution of weight
      2. Obtain causal effect estimate using regression model like `svyglm()`or cox model
 
+8. LASSO regression [Lecture note|Practical](https://flatter11.github.io/6040/8.-LASSO-regression)
+   - For dealing with multicollinearity or small number of predictors
+   - Penalty regression (Ridge and LASSO)
+   - Elastic net (sum of Ridge and LASSO)
 
-   
+9. Bayesian inference [Lecture note|Practical](https://www.notion.so/9-Bayesian-inference-6c12ca2ea14d4c55beb364f266f69800)
+   - Baye's theorem
+
 Tutorial
 
 1. Tutorial 1[Tutorial note](https://flatter11.github.io/6040/Tutorial-1)
@@ -70,6 +76,12 @@ Tutorial
 2. Tutoial 2[Tutoorial note](https://flatter11.github.io/6040/Tutorial-2)
    - Multiple imputation (lecture 4)
    - Extension abt a) study missingness b) checking whether imputed data is sensible
+
+3. Tutoial 3[Tutoorial note](https://flatter11.github.io/6040/Tutorial-3)
+   - Basic check of grouped/clustered data (lecture 5)
+   - GEE (lecture 6)
+   - LMM (lecture 5)
+   - Penalty regression (lecture 8)
 
 ## 1
 
@@ -128,6 +140,15 @@ MSM model
    `ipwplot` to show distribution of weight
 2. Obtain causal effect estimate using regression model like `svyglm()`or cox model
 
+## 8
+
+1. Penalty regression (Ridge and LASSO)
+2. Elastic net (sum of Ridge and LASSO)
+
+## 9
+
+Compare Bayesian's inference with Frequenist inference.       
+Bayesian inference approach is motivated by the lack of ways to incupy prior information. Parameter is variable => can say "probability that theta is between interval is 95%" which is eaiser to understand. Whereas in traditional appraoch, parameter is a constant where we dunno the value. 
 
 ## T1
 
@@ -152,5 +173,13 @@ g. (under d) Likelihood ratio for 2 estimate ???
   - The finding of this tutorial is that estimate is biased if multiple 
     imputation is not used and all variables should be used for multiple 
     imputation
+
+## T3
+
+- Lecture 5-8
+  - Basic check of grouped/clustered data (lecture 5)
+  - GEE (lecture 6)
+  - LMM (lecture 5)
+  - Penalty regression (lecture 8)
 
 
